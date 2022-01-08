@@ -1,0 +1,14 @@
+{
+  "name": "saveaspot",
+  "version": "1.0.0",
+  "description": "a platform to save a spot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yexin Jin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
