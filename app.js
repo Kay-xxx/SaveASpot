@@ -2,7 +2,7 @@ const { response } = require('express');
 const express = require('express')
 const session = require('express-session');
 const app = express()
-const port = 5600
+const port = 5800
 
 const oneDay = 1000 * 60 * 60 * 24;
 app.use(express.json());
@@ -16,6 +16,7 @@ app.use(session({
           
 }));
 
+app.use(express.static('public'))
 app.get('/', (req, res) => {        
   res.sendFile("login.html",{
       root:"./view"      
